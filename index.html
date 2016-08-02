@@ -101,9 +101,10 @@
           var myMap = new MapsLib({
             fusionTableId:      "1uWKcKElCMFo2Hn0UL4xMbnzE0KgIsEAQz9WCUv5e",
             googleApiKey:       "AIzaSyAU1V2xHpLfu6Ba5fTWtTbKuZZdfXLRLfk",
-            locationColumn:     "Postcode",
+            locationColumn:     "'Postcode'",
             map_center:         [51.080695, -1.821277],
-            locationScope:      ""
+            locationScope:      "",
+            searchRadius:       "3219"
           });
 
           var autocomplete = new google.maps.places.Autocomplete(document.getElementById('search_address'));
